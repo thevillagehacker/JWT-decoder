@@ -1,13 +1,14 @@
 # JWT-decoder
 JSON Web Token decoder tool written in golang.
 
-# Usage
+## Usage
 
 ```sh
 go run main.go -t eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTY5NDQ5NDUzNSwiZXhwIjoxNjk0NDk4MTM1fQ.UkhULVq2XdcHf64uPyw2UiHTIjyeuvWuhqgdXc3PhLo
 ```
 
-# Output
+## Output
+
 ```text
 -------------------------------------
 Header:  {"typ":"JWT","alg":"HS256"}
@@ -22,7 +23,8 @@ Signature:  UkhULVq2XdcHf64uPyw2UiHTIjyeuvWuhqgdXc3PhLo
 -------------------------------------
 ```
 
-# Build Binary
+## Build Binary
+
 ```sh
 go build main.go
 ```
