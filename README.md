@@ -7,11 +7,6 @@ JSON Web Token decoder tool written in golang.
 go run main.go -t eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTY5NDQ5NDUzNSwiZXhwIjoxNjk0NDk4MTM1fQ.UkhULVq2XdcHf64uPyw2UiHTIjyeuvWuhqgdXc3PhLo
 ```
 
-# Build Binary
-```sh
-go build main.go
-```
-
 # Output
 ```text
 -------------------------------------
@@ -25,4 +20,9 @@ Payload:  {
 }
 Signature:  UkhULVq2XdcHf64uPyw2UiHTIjyeuvWuhqgdXc3PhLo
 -------------------------------------
+```
+
+# Build Binary
+```sh
+go build main.go
 ```
