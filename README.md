@@ -3,13 +3,13 @@ JSON Web Token decoder tool written in golang.
 
 ## Usage
 
-```sh
+```console
 go run main.go -t eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTY5NDQ5NDUzNSwiZXhwIjoxNjk0NDk4MTM1fQ.UkhULVq2XdcHf64uPyw2UiHTIjyeuvWuhqgdXc3PhLo
 ```
 
 ## Output
 
-```text
+```console
 -------------------------------------
 Header:  {"typ":"JWT","alg":"HS256"}
 Payload:  {
